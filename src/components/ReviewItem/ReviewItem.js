@@ -3,8 +3,8 @@ import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './ReviewItem.css';
 
-const ReviewItem = ({product, handleRemoveItem}) => {
-    const {id, name, price, quantity, shipping, img} = product;
+const ReviewItem = ({ product, handleRemoveItem }) => {
+    const { id, name, price, quantity, shipping, img } = product;
     return (
         <div className='review-item'>
             <div>
